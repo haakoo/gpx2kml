@@ -13,11 +13,11 @@ How to use it
 
 2. Go to path where you have GPX files.
 
-    gpx2kml -i [input GPX files] -i [output KML file] -e [epsylon float]
+    gpx2kml -i [input GPX files] -o [output KML file] -e [epsylon float]
 
   Example:
 
-  gpx2kml -i examples/test.gpx,examples/test-2.gpx -i test.kml -e 30e-5
+  gpx2kml -i examples/test.gpx,examples/test-2.gpx -o test.kml -e 30e-5
 
 3. [See result on google map](http://display-kml.appspot.com/)
 
