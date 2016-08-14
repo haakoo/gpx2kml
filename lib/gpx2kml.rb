@@ -170,7 +170,7 @@ class Gpx2kml
 
     track = ""
     points_list.each do |c|
-      track << "#{c[:lon]}, #{c[:lat]}, #{c[:alt]}, \n"
+      track << "#{c[:lon]}, #{c[:lat]}, #{c[:alt]} "
     end
 
     return track
